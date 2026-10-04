@@ -168,6 +168,7 @@
             ${c.formacion.compl.map(u => `
               <div class="education-item">
                 <h4>${u.title}</h4>
+                <p>${u.desc}</p>
               </div>`).join("")}
           </div>
         </div>
