@@ -114,7 +114,7 @@ window.SITE_CONTENT = {
         { title: "Magisterio en Educación Infantil, mención en Necesidades Educativas Especiales", desc: "Grado universitario, UAH." }
       ],
       compl: [
-        { title: "Desarrollo del pensamiento computacional en el aula", desc: "Code.org." },
+        { title: "Desarrollo del pensamiento computacional en el aula", desc: "Code.org. " },
         { title: "Inteligencia Artificial y Prompt Engineering", desc: "Founderz." },
         { title: "Aprendizaje Basado en Juegos (ABJ)", desc: "UAH." }
       ]
@@ -195,7 +195,7 @@ window.SITE_CONTENT = {
           title: "Education",
           subtitle: null,
           degrees: [],
-          text: "Teacher training and hands-on experience across a range of educational settings, both urban and rural, with a particular focus on inclusion, active methodologies, cooperative learning and the design of meaningful experiences. This training has been complemented by university teaching placements and collaboration with Generación Docentes.",
+          text: "Teacher training and hands-on experience across a range of educational settings, both urban and rural, with a particular focus on inclusion, active methodologies, cooperative learning and the design of meaningful experiences. This training has been complemented by university teaching placements and participating in Generación Docentes.",
           tags: ["Active methodologies", "Cooperative learning", "Inclusion"]
         },
         {
@@ -248,8 +248,8 @@ window.SITE_CONTENT = {
       uniTitle: "University education",
       complTitle: "Relevant further training",
       uni: [
-        { title: "Primary Education Teaching Degree", desc: "University degree." },
-        { title: "Early Childhood Education Teaching Degree, Special Educational Needs pathway", desc: "University degree." }
+        { title: "Primary Education Teaching Degree", desc: "University degree, UAH." },
+        { title: "Early Childhood Education Teaching Degree, Special Educational Needs pathway", desc: "University degree, UAH." }
       ],
       compl: [
         { title: "Developing Computational Thinking in the Classroom" },
