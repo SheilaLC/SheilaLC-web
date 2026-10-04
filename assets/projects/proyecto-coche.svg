@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t4">
+<title id="t4">Ilustración: coche construido con piezas de bloques y sensor de distancia detectando un objeto</title>
+<rect width="400" height="300" fill="#EFE8E4"/>
+<rect x="0" y="220" width="400" height="80" fill="#5B4F68" opacity="0.12"/>
+<g>
+  <rect x="90" y="168" width="150" height="46" rx="8" fill="#8E7F98"/>
+  <rect x="118" y="140" width="80" height="34" rx="8" fill="#8E7F98"/>
+  <circle cx="122" cy="216" r="18" fill="#33463D"/>
+  <circle cx="122" cy="216" r="7" fill="#EFE8E4"/>
+  <circle cx="206" cy="216" r="18" fill="#33463D"/>
+  <circle cx="206" cy="216" r="7" fill="#EFE8E4"/>
+  <rect x="220" y="180" width="16" height="10" rx="2" fill="#4B6157"/>
+</g>
+<g stroke="#4B6157" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.85">
+  <path d="M244 185 q18 -4 32 4"/>
+  <path d="M244 185 q26 -14 46 -2"/>
+  <path d="M244 185 q34 -24 60 -8"/>
+</g>
+<rect x="316" y="150" width="46" height="66" rx="6" fill="#B98B6E" opacity="0.6"/>
+</svg>

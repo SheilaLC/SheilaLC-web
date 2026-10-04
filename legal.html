@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Aviso legal | Sheila Lobo Cabrera</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .legal-wrap{ max-width: 46rem; padding-block: var(--space-6); }
+  .legal-wrap h1{ margin-bottom: var(--space-3); }
+  .legal-wrap h2{ font-size: 1.3rem; margin-top: var(--space-4); margin-bottom: 0.6em; }
+  .legal-wrap p{ color: var(--ink-soft); }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido principal</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">SL</span>
+      <span class="brand-name-full">Sheila Lobo Cabrera</span>
+    </a>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Selector de idioma">
+        <button type="button" data-lang="es" id="lang-es">ES</button>
+        <button type="button" data-lang="en" id="lang-en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap legal-wrap" id="legal-content"></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap" id="footer-content"></div>
+</footer>
+<script src="js/projects-data.js"></script>
+<script src="js/content.js"></script>
+<script src="js/common.js"></script>
+<script>
+(function(){
+  function render(lang){
+    const c = window.SITE_CONTENT[lang];
+    document.documentElement.lang = lang;
+    document.getElementById('page-title').textContent = c.legal.title + ' | Sheila Lobo Cabrera';
+    document.getElementById('legal-content').innerHTML = `
+      <a class="link-arrow" href="index.html">${lang==='es' ? '← Volver al inicio' : '← Back to home'}</a>
+      <h1 style="margin-top:1em;">${c.legal.title}</h1>
+      <p class="lead">${c.legal.intro}</p>
+      <h2>${c.legal.s1title}</h2>
+      <p>${c.legal.s1}</p>
+      <h2>${c.legal.s2title}</h2>
+      <p>${c.legal.s2}</p>
+      <h2>${c.legal.s3title}</h2>
+      <p>${c.legal.s3}</p>
+    `;
+    SiteCommon.renderFooter(lang);
+    SiteCommon.setLangButtons(lang);
+  }
+  SiteCommon.initLangSwitcher(render);
+  render(SiteCommon.getLang());
+})();
+</script>
+</body>
+</html>
