@@ -57,7 +57,7 @@ window.SITE_CONTENT = {
           title: "Educación",
           subtitle: null,
           degrees: [],
-          text: "Formación en educación y experiencia en contextos educativos diversos, incluyendo entornos urbanos y rurales, con especial atención a la inclusión, las metodologías activas, el aprendizaje cooperativo y el diseño de experiencias significativas. Esta formación se ha completado con prácticas universitarias y con la colaboración en Generación Docentes.",
+          text: "Formación en educación y experiencia en contextos educativos diversos, incluyendo entornos urbanos y rurales, con especial atención a la inclusión, las metodologías activas, el aprendizaje cooperativo y el diseño de experiencias significativas. Esta formación se ha completado con prácticas universitarias y con la participación en Generación Docentes.",
           tags: ["Metodologías activas", "Aprendizaje cooperativo", "Inclusión"]
         },
         {
@@ -110,13 +110,13 @@ window.SITE_CONTENT = {
       uniTitle: "Formación universitaria",
       complTitle: "Formación complementaria relevante",
       uni: [
-        { title: "Magisterio en Educación Primaria", desc: "Grado universitario." },
-        { title: "Magisterio en Educación Infantil, mención en Necesidades Educativas Especiales", desc: "Grado universitario." }
+        { title: "Magisterio en Educación Primaria", desc: "Grado universitario, UAH." },
+        { title: "Magisterio en Educación Infantil, mención en Necesidades Educativas Especiales", desc: "Grado universitario, UAH." }
       ],
       compl: [
-        { title: "Desarrollo del pensamiento computacional en el aula" },
-        { title: "Inteligencia Artificial y Prompt Engineering" },
-        { title: "Aprendizaje Basado en Juegos (ABJ)" }
+        { title: "Desarrollo del pensamiento computacional en el aula", desc: "Code.org." },
+        { title: "Inteligencia Artificial y Prompt Engineering", desc: "Founderz." },
+        { title: "Aprendizaje Basado en Juegos (ABJ)", desc: "UAH." }
       ]
     },
     contact: {
