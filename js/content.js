@@ -32,6 +32,8 @@ window.SITE_CONTENT = {
       ctaSecondary: "Conocer mi perfil",
       mediaTag: "Donde se encuentran educación y tecnología"
     },
+
+/* sección 1 */
     about: {
       eyebrow: "Sobre mí",
       title: "Maestra, y algo más",
@@ -41,6 +43,8 @@ window.SITE_CONTENT = {
       videoPause: "Pausar vídeo",
       videoPlay: "Reproducir vídeo"
     },
+     
+/* sección 2 */
     approach: {
       eyebrow: "Mi enfoque",
       title: "La tecnología tiene sentido cuando amplía las posibilidades del aprendizaje",
@@ -48,6 +52,8 @@ window.SITE_CONTENT = {
       flow: ["Interés", "Participación", "Experimentación", "Creación", "Resolución", "Aprendizaje"],
       note: "En este proceso, la tecnología aparece como herramienta: para explorar, crear, representar, resolver, experimentar, comunicar, automatizar y aprender."
     },
+     
+/* sección 3 */
     ambitos: {
       eyebrow: "Cómo trabajo",
       title: "Ámbitos en los que desarrollo mi práctica",
@@ -92,6 +98,8 @@ window.SITE_CONTENT = {
         }
       ]
     },
+     
+/* sección 4 */
     projectsHome: {
       eyebrow: "Proyectos",
       title: "Proyectos destacados",
@@ -104,6 +112,8 @@ window.SITE_CONTENT = {
       intro: "Actividades y recursos adicionales que completan mi práctica en el aula, preparados para ampliarse más adelante."
     },
     otherProjects: OTHER_PROJECTS_ES,
+
+/* sección 5 */
     formacion: {
       eyebrow: "Formación",
       title: "Formación",
@@ -114,11 +124,13 @@ window.SITE_CONTENT = {
         { title: "Magisterio en Educación Infantil, mención en Necesidades Educativas Especiales", desc: "Grado universitario, UAH." }
       ],
       compl: [
-        { title: "Desarrollo del pensamiento computacional en el aula", desc: "Code.org. " },
-        { title: "Inteligencia Artificial y Prompt Engineering", desc: "Founderz." },
-        { title: "Aprendizaje Basado en Juegos (ABJ)", desc: "UAH." }
+        { title: "Desarrollo del pensamiento computacional en el aula", desc: "Code.org" },
+        { title: "Inteligencia Artificial y Prompt Engineering", desc: "Founderz" },
+        { title: "Aprendizaje Basado en Juegos (ABJ)", desc: "UAH" }
       ]
     },
+
+/* sección 6 */
     contact: {
       eyebrow: "Contacto",
       title: "Hablemos",
@@ -145,6 +157,8 @@ window.SITE_CONTENT = {
     }
   },
 
+
+/* -INGLES- */
   en: {
     meta: {
       title: "Sheila Lobo Cabrera | Education, Technology & Learning Design",
@@ -170,6 +184,8 @@ window.SITE_CONTENT = {
       ctaSecondary: "See my profile",
       mediaTag: "Where education and technology meet"
     },
+
+/* SECCIÓN 1 inglés */
     about: {
       eyebrow: "About me",
       title: "Teacher, and a bit more",
@@ -179,6 +195,8 @@ window.SITE_CONTENT = {
       videoPause: "Pause video",
       videoPlay: "Play video"
     },
+
+/* SECCIÓN 2 inglés */
     approach: {
       eyebrow: "My approach",
       title: "Technology matters when it expands the possibilities of learning",
@@ -186,6 +204,8 @@ window.SITE_CONTENT = {
       flow: ["Interest", "Participation", "Experimentation", "Creation", "Problem-solving", "Learning"],
       note: "Along the way, technology shows up as a tool: to explore, create, represent, solve, experiment, communicate, automate and learn."
     },
+
+/* SECCIÓN 3 inglés */
     ambitos: {
       eyebrow: "How I work",
       title: "Where I put this into practice",
@@ -230,6 +250,8 @@ window.SITE_CONTENT = {
         }
       ]
     },
+
+/* SECCIÓN 4 inglés */
     projectsHome: {
       eyebrow: "Projects",
       title: "Featured projects",
@@ -242,6 +264,8 @@ window.SITE_CONTENT = {
       intro: "Additional activities and resources that round out my classroom practice, ready to be expanded further down the line."
     },
     otherProjects: OTHER_PROJECTS_EN,
+
+/* SECCIÓN 5 inglés */
     formacion: {
       eyebrow: "Education & training",
       title: "Education & training",
@@ -252,11 +276,13 @@ window.SITE_CONTENT = {
         { title: "Early Childhood Education Teaching Degree, Special Educational Needs pathway", desc: "University degree, UAH." }
       ],
       compl: [
-        { title: "Developing Computational Thinking in the Classroom" },
-        { title: "Artificial Intelligence and Prompt Engineering" },
-        { title: "Game-Based Learning (GBL)" }
+        { title: "Developing Computational Thinking in the Classroom", desc: "Code.org" },
+        { title: "Artificial Intelligence and Prompt Engineering", desc: "Founderz" },
+        { title: "Game-Based Learning (GBL)", desc: "UAH" }
       ]
     },
+
+/* SECCIÓN 6 inglés */
     contact: {
       eyebrow: "Contact",
       title: "Let's talk",
