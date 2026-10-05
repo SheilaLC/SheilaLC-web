@@ -505,6 +505,19 @@ section{ position: relative; }
   color: var(--ink-soft);
   flex: none;
 }
+/* Versión ordenador (más de 700 px): las 6 píldoras en una sola línea,
+   o 3 y 3 cuando no caben. Nunca una suelta. El móvil no cambia. */
+@media (min-width: 701px){
+  #enfoque .flow-pill{ padding: 0.8em 1.05em; font-size: 0.9rem; }
+  #enfoque .flow-arrow{ margin-inline: 0.2em; }
+}
+@media (min-width: 701px) and (max-width: 1060px){
+  #enfoque .flow{ display: grid; grid-template-columns: repeat(3, max-content); row-gap: var(--space-3); }
+  #enfoque .flow-step:nth-child(3) .flow-arrow{ display: none; }
+}
+@media (min-width: 1061px){
+  #enfoque .flow{ flex-wrap: nowrap; }
+}
 @media (max-width: 700px){
   .flow{ flex-direction: column; align-items: flex-start; }
   .flow-step{ flex-direction: column; align-items: flex-start; width: 100%; }
