@@ -127,6 +127,7 @@ window.SITE_CONTENT = {
         { title: "Desarrollo del pensamiento computacional en el aula", desc: "Code.org" },
         { title: "Inteligencia Artificial y Prompt Engineering", desc: "Founderz" },
         { title: "Aprendizaje Basado en Juegos (ABJ)", desc: "UAH" }
+        { title: "Inglés C1", desc: "Aptis" }
       ]
     },
 
@@ -279,6 +280,7 @@ window.SITE_CONTENT = {
         { title: "Developing Computational Thinking in the Classroom", desc: "Code.org" },
         { title: "Artificial Intelligence and Prompt Engineering", desc: "Founderz" },
         { title: "Game-Based Learning (GBL)", desc: "UAH" }
+        { title: "English C1", desc: "Aptis" }
       ]
     },
 
